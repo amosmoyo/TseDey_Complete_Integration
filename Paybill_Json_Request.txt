@@ -1,0 +1,257 @@
+{
+	"CustomerID": "2729791800",
+	"Country": "ETHIOPIA",
+	"BankID": "02",
+	"UniqueID": "15454040-5f7f-11ef-b339-cb33816aa03f",
+	"FunctionName": "PAYBILL",
+	"ISOFieldsRequest": null,
+	"ISOFieldsResponse": null,
+	"PaymentDetails": {
+		"MerchantID": "MMONEY",
+		"FunctionName": "PAYBILL",
+		"AccountID": "251919037184",
+		"Amount": "5",
+		"ReferenceNumber": "985581"
+	},
+	"InfoFields": {
+		"InfoField1": "own telebirr ",
+		"InfoField2": null,
+		"InfoField3": "abiyu ambaye ayalew",
+		"InfoField4": null,
+		"InfoField5": null,
+		"InfoField6": null,
+		"InfoField7": null,
+		"InfoField8": null,
+		"InfoField9": null,
+		"InfoField10": null,
+		"InfoField11": null,
+		"InfoField12": null,
+		"InfoField13": null,
+		"InfoField14": null,
+		"InfoField15": null,
+		"InfoField16": null,
+		"InfoField17": null,
+		"InfoField18": null,
+		"InfoField19": null,
+		"InfoField20": null,
+		"InfoField21": null,
+		"InfoField22": null,
+		"InfoField23": null,
+		"InfoField24": null,
+		"InfoField25": null,
+		"InfoField26": null,
+		"InfoField27": null,
+		"InfoField28": null,
+		"InfoField29": null,
+		"InfoField30": null,
+		"InfoField31": null,
+		"InfoField32": null,
+		"InfoField33": null,
+		"InfoField34": null,
+		"InfoField35": null,
+		"InfoField36": null,
+		"InfoField37": null,
+		"InfoField38": null,
+		"InfoField39": null,
+		"InfoField40": null,
+		"InfoField41": null,
+		"InfoField42": null,
+		"InfoField43": null,
+		"InfoField44": null,
+		"InfoField45": null,
+		"InfoField46": null,
+		"InfoField47": null,
+		"InfoField48": null,
+		"InfoField49": null,
+		"InfoField50": null
+	},
+	"MerchantConfig": {
+		"DLLCallID": "MMONEY",
+		"MerchantCode": "MMONEY",
+		"MerchantName": "MMONEY",
+		"TrxAuthontication": "TRXPIN",
+		"MerchantProvider": "TELEBIRR",
+		"MerchantURL": "http://10.10.101.21:23004/TelebirrService/api/dynamic/B2C",
+		"MerchantReference": "{DATE}{STAN}"
+	},
+	"ISOResponseFields": null,
+	"ResponseDetail": null,
+	"Customerdetail": {
+		"CustomerID": "2729791800",
+		"Country": "ETHIOPIA",
+		"MobileNumber": "251919037184",
+		"EmailID": "abiyuambaye21@gmail.com",
+		"FirstName": "Abiyu",
+		"LastName": "Ambaye",
+		"IMEI": null,
+		"IMSI": null,
+		"AppNotificationID": null
+	},
+	"ISORequest": {
+		"BankID": "02",
+		"MessageType": "0200",
+		"ISOFields": [
+			{
+				"FieldID": 2,
+				"FieldValue": "251919037184"
+			},
+			{
+				"FieldID": 3,
+				"FieldValue": "MMONEY"
+			},
+			{
+				"FieldID": 4,
+				"FieldValue": "5"
+			},
+			{
+				"FieldID": 7,
+				"FieldValue": "0821080821"
+			},
+			{
+				"FieldID": 11,
+				"FieldValue": "985581"
+			},
+			{
+				"FieldID": 46,
+				"FieldValue": "MMONEY"
+			},
+			{
+				"FieldID": 48,
+				"FieldValue": "MMONEY"
+			},
+			{
+				"FieldID": 49,
+				"FieldValue": "ETB"
+			},
+			{
+				"FieldID": 99,
+				"FieldValue": "CONVENTIONAL"
+			},
+			{
+				"FieldID": 102,
+				"FieldValue": "2305470000092"
+			},
+			{
+				"FieldID": 103,
+				"FieldValue": "21561100"
+			},
+			{
+				"FieldID": 104,
+				"FieldValue": "2305"
+			},
+			{
+				"FieldID": 105,
+				"FieldValue": "2305"
+			},
+			{
+				"FieldID": 106,
+				"FieldValue": "own telebirr "
+			},
+			{
+				"FieldID": 107,
+				"FieldValue": "own telebirr "
+			},
+			{
+				"FieldID": 111,
+				"FieldValue": "0105"
+			},
+			{
+				"FieldID": 128,
+				"FieldValue": "APP"
+			}
+		]
+	},
+	"ResponseFields": [
+		{
+			"FieldID": 2,
+			"FieldValue": "251919037184"
+		},
+		{
+			"FieldID": 3,
+			"FieldValue": "MMONEY"
+		},
+		{
+			"FieldID": 4,
+			"FieldValue": "5"
+		},
+		{
+			"FieldID": 7,
+			"FieldValue": "0821080821"
+		},
+		{
+			"FieldID": 11,
+			"FieldValue": "TFTO0000050613"
+		},
+		{
+			"FieldID": 39,
+			"FieldValue": "000"
+		},
+		{
+			"FieldID": 44,
+			"FieldValue": "TFTO0000050613"
+		},
+		{
+			"FieldID": 46,
+			"FieldValue": "MMONEY"
+		},
+		{
+			"FieldID": 48,
+			"FieldValue": "{\"Status\":\"000\",\"Message\":\"Success\",\"Data\":{\"ClearBalance\":\"65948.0200\",\"AvailableBalance\":\"65923.0200\",\"SerialID\":\"440\",\"BatchID\":\"TFTO0000050613\"}}"
+		},
+		{
+			"FieldID": 49,
+			"FieldValue": "ETB"
+		},
+		{
+			"FieldID": 52,
+			"FieldValue": "{\"Status\":\"000\",\"Message\":\"Success\",\"Data\":{\"ClearBalance\":\"65948.0200\",\"AvailableBalance\":\"65923.0200\",\"SerialID\":\"440\",\"BatchID\":\"TFTO0000050613\"}}"
+		},
+		{
+			"FieldID": 99,
+			"FieldValue": "CONVENTIONAL"
+		},
+		{
+			"FieldID": 102,
+			"FieldValue": "2305470000092"
+		},
+		{
+			"FieldID": 103,
+			"FieldValue": "21561100"
+		},
+		{
+			"FieldID": 104,
+			"FieldValue": "2305"
+		},
+		{
+			"FieldID": 105,
+			"FieldValue": "2305"
+		},
+		{
+			"FieldID": 106,
+			"FieldValue": "own telebirr "
+		},
+		{
+			"FieldID": 107,
+			"FieldValue": "own telebirr "
+		},
+		{
+			"FieldID": 111,
+			"FieldValue": "0105"
+		},
+		{
+			"FieldID": 128,
+			"FieldValue": "APP"
+		}
+	],
+	"AppDetail": {
+		"AppName": "TSEDEY",
+		"Version": "3.15.18",
+		"CodeBase": "ANDROID",
+		"LATLON": "0.0000,0.0000",
+		"TrxSource": "APP",
+		"DeviceNotificationID": "",
+		"DeviceIMEI": "a8b4586c7b8e6692",
+		"DeviceIMSI": "a8b4586c7b8e6692",
+		"ConnString": "Data Source = 172.17.40.2\\SQL2017R2,55770; Initial Catalog = Tsedey; User ID = User11021969; Password = abc123**; MultipleActiveResultSets = True; Min Pool Size = 5; Max Pool Size = 5000; Connect Timeout = 180; Application Name = ElmaCore;TrustServerCertificate=True;"
+	}
+}
